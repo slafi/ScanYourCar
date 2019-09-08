@@ -41,11 +41,14 @@ if __name__ == "__main__":
     else:
         ## Querying the car to get the supported commands
         log.info('Checking supported commands...')
-        cexplorer.check_supported_commands()
+        rcode = cexplorer.check_supported_commands()
 
         ## Querying the car to get current data for each supported command
         log.info('Fetching data from the car...')
-        cexplorer.run_supported_commands()
+        if rcode == 0:
+            cexplorer.run_supported_commands()
+        else:
+            log.error('Could not retrieve any data from the car because the list of supported commands is empty!')
 
         ## Closing connection to the car and exiting
         log.info('Disconnecting...')

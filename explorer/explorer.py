@@ -14,7 +14,7 @@ log = logging.getLogger('pid_explorer')
 class Explorer:
 
 
-    def __init__(self, command_file, output_file = "./output.txt", verbose=False):
+    def __init__(self, command_file = "./commands.json", output_file = "./output.txt", verbose=False):
         self.output_file = output_file
         self.commands = []
         self.supported_commands = []
@@ -83,7 +83,9 @@ class Explorer:
 
     def check_supported_commands(self):
 
-        """ Runs through the input list of commands and Checks which among them are suported by the car """
+        """ Runs through the input list of commands and Checks which among them are suported by the car 
+            :returns int: 0 if success, -1 if the list of commands is empty, -2 if no connection found, -3 if exception arises
+        """
 
         self.supported_commands = []
 
@@ -91,14 +93,16 @@ class Explorer:
 
             if(self.commands == [] or self.commands == None):
                 log.error('No commands to apply!')
+                return -1
             elif(self.connection == None):
                 log.error('Connection to the car not found!')
+                return -2
             else:
 
                 output = []
                 self.supported_commands=[]
                 output.append('-----------------------------------------------\n')
-                output.append('\tCAN Explorer version 1.0\n')
+                output.append('\tScanYourCar version 1.0\n')
                 output.append('\tTest run on {}\n'.format(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
                 output.append('-----------------------------------------------\n')
                 
@@ -126,22 +130,32 @@ class Explorer:
                 output_str = ''.join(output)
                 write_to_file(self.output_file, "w", output_str)                    
 
+            return 0
+
         except Exception as inst:
             log.error("Exception: {}".format(inst))
+            return -3
 
 
     def run_supported_commands(self):
 
-        """ Attempts to sequentially run supported commands and retrieve their values from the car """
+        """ Attempts to sequentially run supported commands and retrieve their values from the car 
+            :returns int: 0 if success, -1 if the list of commands is empty, and -2 if no connection found
+        """
 
         if(self.supported_commands == [] or self.supported_commands == None):
             log.error('No commands to apply!')
+            return -1
         elif(self.connection == None):
             log.error('Connection to the car not found!')
+            return -2
         else:
 
             output = []
-            output.append('\r\n\r\n')
+            output.append('\r\n')
+            output.append('-----------------------------------------------\n')
+            output.append('Data retrieved on: {}\n'.format(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
+            output.append('-----------------------------------------------\n')
 
             ## Run commands one by one
             for cmd in self.supported_commands:
@@ -160,5 +174,6 @@ class Explorer:
 
             output_str = ''.join(output)
             write_to_file(self.output_file, "a+", output_str)
+            return 0
 
         
