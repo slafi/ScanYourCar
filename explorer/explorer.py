@@ -40,16 +40,22 @@ class Explorer:
 
 
     def connect(self):
-        """ Attempts to asynchronously connect to the ELM327 """        
+        """ Attempts to connect to the ELM327 
+            :returns int: 0 if the connection is established, -1 otherwise
+        """        
         try:
             self.connection = obd.OBD()
             #self.connection = obd.Async() # auto-connects asynchronously to USB or RF port
+            return 0
         except Exception as inst:
             log.error("Exception: {}".format(inst))
+            return -1
 
 
     def check_connection(self):
-        """ Checks if the connection is already established. Returns boolean or None if exception """
+        """ Checks if the connection is already established. Returns boolean or None if exception 
+            :returns Boolean: True if the connection is already established, False if the connection is not established, None if an exception has occured
+        """
         try:
 
             if(self.connection.status() == obd.OBDStatus.CAR_CONNECTED):
@@ -67,24 +73,29 @@ class Explorer:
 
 
     def disconnect(self):
-        """ Closes the established connection to the ELM327 """
+        """ Closes the established connection to the ELM327 
+            :returns Boolean: True if the connection is closed successfully, False if the connection already not alive/established, None if an exception has occured
+        """
         try:
 
             if(self.connection.status() == obd.OBDStatus.CAR_CONNECTED):
                 self.connection.close()
                 self.Enabled = True
                 log.debug("Connection to the car is closed!")
+                return True
             else:
                 log.debug("Connection to the car is already not alive!")
+                return False
 
         except Exception as inst:
             log.error("Exception: {}".format(inst))
+            return None
 
 
     def check_supported_commands(self):
 
         """ Runs through the input list of commands and Checks which among them are suported by the car 
-            :returns int: 0 if success, -1 if the list of commands is empty, -2 if no connection found, -3 if exception arises
+            :returns int: 0 if success, -1 if the list of commands is empty, -2 if no connection found, -3 if an exception has occured
         """
 
         self.supported_commands = []
