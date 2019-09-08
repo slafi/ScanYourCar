@@ -49,7 +49,7 @@ cexplorer.disconnect()
 
 The `Explorer` class writes supported commands (i.e., PIDs) to the output file `output_file`. In addition, the class member `self.supported_commands` holds the list of supported commands. Before the invocation of the `check_supported_commands()` method, this list is empty.
 
-The `Explorer` class takes as input a list of OBD commands (PIDs) in JSON format. A [default list](explorer/commands.json) which enumerates the Mode 2 and 3 commands, supported by Python OBD library, is already provided. If you want to provide your own list of commands, or the [commands' list](https://python-obd.readthedocs.io/en/latest/Command%20Tables/) offered by the library evolves in the future, you still have the option to override the default list (by explicitly setting up the `command_file` to your commands' list filename).
+The `Explorer` class takes as input a list of OBD commands (PIDs) in JSON format. A [default list](explorer/commands.json) which enumerates the Mode 2 and 3 commands, supported by Python OBD library, is already provided. If you want to provide your own list of commands, or the [commands' list](https://python-obd.readthedocs.io/en/latest/Command%20Tables/) offered by the library evolves in the future, you still have the option to override the default list (by explicitly setting up the `command_file` parameter to your commands' list filename).
 
 ## Examples
 
