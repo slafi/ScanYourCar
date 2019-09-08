@@ -1,0 +1,143 @@
+-----------------------------------------------
+	CAN Explorer version 1.0
+	Test run on 2019-09-04 09:56:47
+-----------------------------------------------
+ELM_VERSION .............. [OK]
+ELM_VOLTAGE .............. [OK]
+PIDS_A .............. [OK]
+STATUS .............. [OK]
+FREEZE_DTC .............. [NOT SUPPORTED]
+FUEL_STATUS .............. [OK]
+ENGINE_LOAD .............. [OK]
+COOLANT_TEMP .............. [OK]
+SHORT_FUEL_TRIM_1 .............. [OK]
+LONG_FUEL_TRIM_1 .............. [OK]
+SHORT_FUEL_TRIM_2 .............. [NOT SUPPORTED]
+LONG_FUEL_TRIM_2 .............. [NOT SUPPORTED]
+FUEL_PRESSURE .............. [NOT SUPPORTED]
+INTAKE_PRESSURE .............. [OK]
+RPM .............. [OK]
+SPEED .............. [OK]
+TIMING_ADVANCE .............. [OK]
+INTAKE_TEMP .............. [OK]
+MAF .............. [NOT SUPPORTED]
+THROTTLE_POS .............. [OK]
+AIR_STATUS .............. [NOT SUPPORTED]
+O2_SENSORS .............. [OK]
+O2_B1S1 .............. [OK]
+O2_B1S2 .............. [OK]
+O2_B1S3 .............. [NOT SUPPORTED]
+O2_B1S4 .............. [NOT SUPPORTED]
+O2_B2S1 .............. [NOT SUPPORTED]
+O2_B2S2 .............. [NOT SUPPORTED]
+O2_B2S3 .............. [NOT SUPPORTED]
+O2_B2S4 .............. [NOT SUPPORTED]
+OBD_COMPLIANCE .............. [OK]
+O2_SENSORS_ALT .............. [NOT SUPPORTED]
+AUX_INPUT_STATUS .............. [NOT SUPPORTED]
+RUN_TIME .............. [OK]
+PIDS_B .............. [OK]
+DISTANCE_W_MIL .............. [OK]
+FUEL_RAIL_PRESSURE_VAC .............. [NOT SUPPORTED]
+FUEL_RAIL_PRESSURE_DIRECT .............. [NOT SUPPORTED]
+O2_S1_WR_VOLTAGE .............. [NOT SUPPORTED]
+O2_S2_WR_VOLTAGE .............. [NOT SUPPORTED]
+O2_S3_WR_VOLTAGE .............. [NOT SUPPORTED]
+O2_S4_WR_VOLTAGE .............. [NOT SUPPORTED]
+O2_S5_WR_VOLTAGE .............. [NOT SUPPORTED]
+O2_S6_WR_VOLTAGE .............. [NOT SUPPORTED]
+O2_S7_WR_VOLTAGE .............. [NOT SUPPORTED]
+O2_S8_WR_VOLTAGE .............. [NOT SUPPORTED]
+COMMANDED_EGR .............. [NOT SUPPORTED]
+EGR_ERROR .............. [NOT SUPPORTED]
+EVAPORATIVE_PURGE .............. [OK]
+FUEL_LEVEL .............. [OK]
+WARMUPS_SINCE_DTC_CLEAR .............. [OK]
+DISTANCE_SINCE_DTC_CLEAR .............. [OK]
+EVAP_VAPOR_PRESSURE .............. [OK]
+BAROMETRIC_PRESSURE .............. [OK]
+O2_S1_WR_CURRENT .............. [NOT SUPPORTED]
+O2_S2_WR_CURRENT .............. [NOT SUPPORTED]
+O2_S3_WR_CURRENT .............. [NOT SUPPORTED]
+O2_S4_WR_CURRENT .............. [NOT SUPPORTED]
+O2_S5_WR_CURRENT .............. [NOT SUPPORTED]
+O2_S6_WR_CURRENT .............. [NOT SUPPORTED]
+O2_S7_WR_CURRENT .............. [NOT SUPPORTED]
+O2_S8_WR_CURRENT .............. [NOT SUPPORTED]
+CATALYST_TEMP_B1S1 .............. [OK]
+CATALYST_TEMP_B2S1 .............. [NOT SUPPORTED]
+CATALYST_TEMP_B1S2 .............. [NOT SUPPORTED]
+CATALYST_TEMP_B2S2 .............. [NOT SUPPORTED]
+PIDS_C .............. [OK]
+STATUS_DRIVE_CYCLE .............. [OK]
+CONTROL_MODULE_VOLTAGE .............. [OK]
+ABSOLUTE_LOAD .............. [OK]
+COMMANDED_EQUIV_RATIO .............. [OK]
+RELATIVE_THROTTLE_POS .............. [OK]
+AMBIANT_AIR_TEMP .............. [OK]
+THROTTLE_POS_B .............. [NOT SUPPORTED]
+THROTTLE_POS_C .............. [NOT SUPPORTED]
+ACCELERATOR_POS_D .............. [NOT SUPPORTED]
+ACCELERATOR_POS_E .............. [NOT SUPPORTED]
+ACCELERATOR_POS_F .............. [NOT SUPPORTED]
+THROTTLE_ACTUATOR .............. [NOT SUPPORTED]
+RUN_TIME_MIL .............. [NOT SUPPORTED]
+TIME_SINCE_DTC_CLEARED .............. [NOT SUPPORTED]
+MAX_MAF .............. [NOT SUPPORTED]
+FUEL_TYPE .............. [NOT SUPPORTED]
+ETHANOL_PERCENT .............. [NOT SUPPORTED]
+EVAP_VAPOR_PRESSURE_ABS .............. [NOT SUPPORTED]
+EVAP_VAPOR_PRESSURE_ALT .............. [NOT SUPPORTED]
+SHORT_O2_TRIM_B1 .............. [NOT SUPPORTED]
+LONG_O2_TRIM_B1 .............. [NOT SUPPORTED]
+SHORT_O2_TRIM_B2 .............. [NOT SUPPORTED]
+LONG_O2_TRIM_B2 .............. [NOT SUPPORTED]
+FUEL_RAIL_PRESSURE_ABS .............. [NOT SUPPORTED]
+RELATIVE_ACCEL_POS .............. [NOT SUPPORTED]
+HYBRID_BATTERY_REMAINING .............. [NOT SUPPORTED]
+OIL_TEMP .............. [NOT SUPPORTED]
+FUEL_INJECT_TIMING .............. [NOT SUPPORTED]
+FUEL_RATE .............. [NOT SUPPORTED]
+GET_DTC .............. [OK]
+-----------------------------------------------
+Test results: 37 commands are supported.
+-----------------------------------------------
+
+
+[ELM_VERSION] => ELM327 v1.5
+[ELM_VOLTAGE] => None
+[PIDS_A] => 10111110001111101011100000010011
+[STATUS] => <obd.OBDResponse.Status object at 0x75627d30>
+[FUEL_STATUS] => ('Closed loop, using oxygen sensor feedback to determine fuel mix', '')
+[ENGINE_LOAD] => 29.019607843137255 percent
+[COOLANT_TEMP] => 51 degC
+[SHORT_FUEL_TRIM_1] => 4.6875 percent
+[LONG_FUEL_TRIM_1] => 0.78125 percent
+[INTAKE_PRESSURE] => 39 kilopascal
+[RPM] => 947.5 revolutions_per_minute
+[SPEED] => 0 kph
+[TIMING_ADVANCE] => 4.5 degree
+[INTAKE_TEMP] => 21 degC
+[THROTTLE_POS] => 8.627450980392156 percent
+[O2_SENSORS] => ((), (False, False, False, False), (False, False, True, True))
+[O2_B1S1] => 0.445 volt
+[O2_B1S2] => 0.46 volt
+[OBD_COMPLIANCE] => OBD-II as defined by the CARB
+[RUN_TIME] => 162 second
+[PIDS_B] => 10000000000001111110000000010001
+[DISTANCE_W_MIL] => 0 kilometer
+[EVAPORATIVE_PURGE] => 0.0 percent
+[FUEL_LEVEL] => 75.29411764705883 percent
+[WARMUPS_SINCE_DTC_CLEAR] => 157 count
+[DISTANCE_SINCE_DTC_CLEAR] => 2708 kilometer
+[EVAP_VAPOR_PRESSURE] => -49.0 pascal
+[BAROMETRIC_PRESSURE] => 99 kilopascal
+[CATALYST_TEMP_B1S1] => 468.6 degC
+[PIDS_C] => 11111100000000000000000000000000
+[STATUS_DRIVE_CYCLE] => <obd.OBDResponse.Status object at 0x7554f090>
+[CONTROL_MODULE_VOLTAGE] => 14.277000000000001 volt
+[ABSOLUTE_LOAD] => 25.098039215686274 percent
+[COMMANDED_EQUIV_RATIO] => 0.999424 ratio
+[RELATIVE_THROTTLE_POS] => 0.0 percent
+[AMBIANT_AIR_TEMP] => 18 degC
+[GET_DTC] => []
