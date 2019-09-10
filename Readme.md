@@ -1,10 +1,10 @@
 # Project Description
 
-The [Onboard Diagnostics Protocol (OBD-II)](https://en.wikipedia.org/wiki/On-board_diagnostics) protocol allows to query the different car engine control units (ECUs) and get real-time data through the CAN bus. The data can be retrieved through specific [parameter identifiers (PIDs)](https://en.wikipedia.org/wiki/OBD-II_PIDs). However, each car supports a subset of the standard PIDs. In addition, some cars use manufacturer-specific PIDs. The ScanYourCar project connects to the car through an OBD reader (e.g., [ELM327](https://en.wikipedia.org/wiki/ELM327)) and checks which PIDs (Mode 2 and Mode 3 only) are supported by that car. It also gets a snapshot of the data for each supported PID.
+The [Onboard Diagnostics Protocol (OBD-II)](https://en.wikipedia.org/wiki/On-board_diagnostics) protocol allows to query the different car engine control units (ECUs) and get real-time data through the CAN bus. The data can be retrieved through specific [parameter identifiers (PIDs)](https://en.wikipedia.org/wiki/OBD-II_PIDs). However, each car supports a subset of the standard PIDs. In addition, some cars use manufacturer-specific PIDs. The ScanYourCar project connects to the car through an OBD reader (e.g., [ELM327](https://en.wikipedia.org/wiki/ELM327)) and checks which standard PIDs (Mode 2 and Mode 3 only) are supported by that car. It also gets a snapshot of the data for each supported PID.
 
 ## Getting Started
 
-To successfully run this source code, a Bluetooth OBD reader is required. It should be paired to your system.
+To successfully run this source code, a Bluetooth OBD adapter is required. It should be paired to your system.
 
 ### Prerequisites
 
