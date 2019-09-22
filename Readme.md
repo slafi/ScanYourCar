@@ -8,7 +8,7 @@ To successfully run this source code, a Bluetooth OBD adapter is required. It sh
 
 ### Prerequisites
 
-This project use the [Python OBD](https://github.com/brendan-w/python-OBD) library. To install this library, you need to run:
+This project uses the [Python OBD](https://github.com/brendan-w/python-OBD) library. To install this library, you need to run:
 
 ```bash
 pip install obd
