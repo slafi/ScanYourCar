@@ -50,6 +50,10 @@ if __name__ == "__main__":
         else:
             log.error('Could not retrieve any data from the car because the list of supported commands is empty!')
 
+        # Dump supported commands to a JSON file
+        log.info('Dumping supported commands...')
+        cexplorer.dump_supported_commands("./supported_commands.json")
+
         ## Closing connection to the car and exiting
         log.info('Disconnecting...')
         cexplorer.disconnect()
