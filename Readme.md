@@ -63,7 +63,7 @@ The ScanYourCar code retrieved the supported commands from three different cars:
 
 ## Built With
 
-* [Python 3](https://www.python.org/downloads/)
+* [Python 3.7](https://www.python.org/downloads/)
 
 ## Tested on
 * [Ubuntu 18.04](http://releases.ubuntu.com/18.04/)
