@@ -23,7 +23,7 @@ class Explorer:
     """
 
     def __init__(self, command_file = "./commands.json", output_file = "./output.txt", verbose=False):
-		""" Default constructor
+        """ Default constructor
 
             :param command_file: the JSON file from which the predefined list of commands are loaded
 			:param output_file: the filename to which the test results are written
@@ -244,4 +244,3 @@ class Explorer:
             output_json = json.dumps(output)
             io.write_to_file(dump_file, "w", output_json)
             return 0
-            
