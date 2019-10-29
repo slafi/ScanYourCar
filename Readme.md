@@ -43,7 +43,7 @@ rcode = cexplorer.check_supported_commands()
 if rcode == 0:
     cexplorer.run_supported_commands()
 
-# Dump the supported commands to a JSON file
+## Dump the supported commands to a JSON file
 cexplorer.dump_supported_commands("./supported_commands.json")
 
 ## Close connection to the car

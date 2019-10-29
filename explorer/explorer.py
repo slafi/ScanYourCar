@@ -8,26 +8,26 @@ import obd
 import datetime
 
 ### Initialize logger for the module
-log = logging.getLogger('pid_explorer')
+logger = logging.getLogger('pid_explorer')
 
 
 class Explorer:
     
-    """ This class checks and logs the PID commands supported by the car 
+    """ This class checks and logs the PID commands supported by the car
 
         :param output_file: the file to which the test results are written
-		:param commands: the list of available commands
-		:param supported_commands: the list of the commands supported by the car
-		:param connection: an OBD-II connection instance
-		:param Enabled: a flag indicating whether the class instance is enabled
+        :param commands: the list of available commands
+        :param supported_commands: the list of the commands supported by the car
+        :param connection: an OBD-II connection instance
+        :param Enabled: a flag indicating whether the class instance is enabled
     """
 
     def __init__(self, command_file = "./commands.json", output_file = "./output.txt", verbose=False):
         """ Default constructor
 
             :param command_file: the JSON file from which the predefined list of commands are loaded
-			:param output_file: the filename to which the test results are written
-			:param verbose: a flag which indicates if thorough debug info are logged
+            :param output_file: the filename to which the test results are written
+            :param verbose: a flag which indicates if thorough debug info are logged
         """
 		
         self.output_file = output_file
