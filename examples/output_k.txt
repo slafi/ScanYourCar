@@ -1,0 +1,306 @@
+-----------------------------------------------
+	ScanYourCar version 1.0
+	Test run on 2019-11-15 11:58:16
+-----------------------------------------------
+ELM_VERSION .............. [OK]
+
+ELM_VOLTAGE .............. [OK]
+
+PIDS_A .............. [OK]
+
+STATUS .............. [OK]
+
+FREEZE_DTC .............. [NOT SUPPORTED]
+
+FUEL_STATUS .............. [OK]
+
+ENGINE_LOAD .............. [OK]
+
+COOLANT_TEMP .............. [OK]
+
+SHORT_FUEL_TRIM_1 .............. [OK]
+
+LONG_FUEL_TRIM_1 .............. [OK]
+
+SHORT_FUEL_TRIM_2 .............. [NOT SUPPORTED]
+
+LONG_FUEL_TRIM_2 .............. [NOT SUPPORTED]
+
+FUEL_PRESSURE .............. [NOT SUPPORTED]
+
+INTAKE_PRESSURE .............. [OK]
+
+RPM .............. [OK]
+
+SPEED .............. [OK]
+
+TIMING_ADVANCE .............. [OK]
+
+INTAKE_TEMP .............. [OK]
+
+MAF .............. [OK]
+
+THROTTLE_POS .............. [OK]
+
+AIR_STATUS .............. [NOT SUPPORTED]
+
+O2_SENSORS .............. [OK]
+
+O2_B1S1 .............. [NOT SUPPORTED]
+
+O2_B1S2 .............. [OK]
+
+O2_B1S3 .............. [NOT SUPPORTED]
+
+O2_B1S4 .............. [NOT SUPPORTED]
+
+O2_B2S1 .............. [NOT SUPPORTED]
+
+O2_B2S2 .............. [NOT SUPPORTED]
+
+O2_B2S3 .............. [NOT SUPPORTED]
+
+O2_B2S4 .............. [NOT SUPPORTED]
+
+OBD_COMPLIANCE .............. [OK]
+
+O2_SENSORS_ALT .............. [NOT SUPPORTED]
+
+AUX_INPUT_STATUS .............. [NOT SUPPORTED]
+
+RUN_TIME .............. [OK]
+
+PIDS_B .............. [OK]
+
+DISTANCE_W_MIL .............. [OK]
+
+FUEL_RAIL_PRESSURE_VAC .............. [NOT SUPPORTED]
+
+FUEL_RAIL_PRESSURE_DIRECT .............. [NOT SUPPORTED]
+
+O2_S1_WR_VOLTAGE .............. [NOT SUPPORTED]
+
+O2_S2_WR_VOLTAGE .............. [NOT SUPPORTED]
+
+O2_S3_WR_VOLTAGE .............. [NOT SUPPORTED]
+
+O2_S4_WR_VOLTAGE .............. [NOT SUPPORTED]
+
+O2_S5_WR_VOLTAGE .............. [NOT SUPPORTED]
+
+O2_S6_WR_VOLTAGE .............. [NOT SUPPORTED]
+
+O2_S7_WR_VOLTAGE .............. [NOT SUPPORTED]
+
+O2_S8_WR_VOLTAGE .............. [NOT SUPPORTED]
+
+COMMANDED_EGR .............. [OK]
+
+EGR_ERROR .............. [OK]
+
+EVAPORATIVE_PURGE .............. [OK]
+
+FUEL_LEVEL .............. [OK]
+
+WARMUPS_SINCE_DTC_CLEAR .............. [OK]
+
+DISTANCE_SINCE_DTC_CLEAR .............. [OK]
+
+EVAP_VAPOR_PRESSURE .............. [OK]
+
+BAROMETRIC_PRESSURE .............. [OK]
+
+O2_S1_WR_CURRENT .............. [OK]
+
+O2_S2_WR_CURRENT .............. [NOT SUPPORTED]
+
+O2_S3_WR_CURRENT .............. [NOT SUPPORTED]
+
+O2_S4_WR_CURRENT .............. [NOT SUPPORTED]
+
+O2_S5_WR_CURRENT .............. [NOT SUPPORTED]
+
+O2_S6_WR_CURRENT .............. [NOT SUPPORTED]
+
+O2_S7_WR_CURRENT .............. [NOT SUPPORTED]
+
+O2_S8_WR_CURRENT .............. [NOT SUPPORTED]
+
+CATALYST_TEMP_B1S1 .............. [OK]
+
+CATALYST_TEMP_B2S1 .............. [NOT SUPPORTED]
+
+CATALYST_TEMP_B1S2 .............. [OK]
+
+CATALYST_TEMP_B2S2 .............. [NOT SUPPORTED]
+
+PIDS_C .............. [OK]
+
+STATUS_DRIVE_CYCLE .............. [OK]
+
+CONTROL_MODULE_VOLTAGE .............. [OK]
+
+ABSOLUTE_LOAD .............. [OK]
+
+COMMANDED_EQUIV_RATIO .............. [OK]
+
+RELATIVE_THROTTLE_POS .............. [OK]
+
+AMBIANT_AIR_TEMP .............. [OK]
+
+THROTTLE_POS_B .............. [OK]
+
+THROTTLE_POS_C .............. [NOT SUPPORTED]
+
+ACCELERATOR_POS_D .............. [OK]
+
+ACCELERATOR_POS_E .............. [OK]
+
+ACCELERATOR_POS_F .............. [NOT SUPPORTED]
+
+THROTTLE_ACTUATOR .............. [OK]
+
+RUN_TIME_MIL .............. [OK]
+
+TIME_SINCE_DTC_CLEARED .............. [OK]
+
+MAX_MAF .............. [NOT SUPPORTED]
+
+FUEL_TYPE .............. [OK]
+
+ETHANOL_PERCENT .............. [NOT SUPPORTED]
+
+EVAP_VAPOR_PRESSURE_ABS .............. [NOT SUPPORTED]
+
+EVAP_VAPOR_PRESSURE_ALT .............. [NOT SUPPORTED]
+
+SHORT_O2_TRIM_B1 .............. [OK]
+
+LONG_O2_TRIM_B1 .............. [OK]
+
+SHORT_O2_TRIM_B2 .............. [NOT SUPPORTED]
+
+LONG_O2_TRIM_B2 .............. [NOT SUPPORTED]
+
+FUEL_RAIL_PRESSURE_ABS .............. [NOT SUPPORTED]
+
+RELATIVE_ACCEL_POS .............. [NOT SUPPORTED]
+
+HYBRID_BATTERY_REMAINING .............. [NOT SUPPORTED]
+
+OIL_TEMP .............. [NOT SUPPORTED]
+
+FUEL_INJECT_TIMING .............. [NOT SUPPORTED]
+
+FUEL_RATE .............. [NOT SUPPORTED]
+
+GET_DTC .............. [OK]
+
+-----------------------------------------------
+Test results: 50 commands are supported.
+-----------------------------------------------
+
+
+-----------------------------------------------
+Data retrieved on: 2019-11-15 11:58:26
+-----------------------------------------------
+[ELM_VERSION] => ELM327 v1.5
+
+[ELM_VOLTAGE] => 12.3 volt
+
+[PIDS_A] => 10111110001111111010100000010011
+
+[STATUS] => <obd.OBDResponse.Status object at 0x75ffa050>
+
+[FUEL_STATUS] => ('Closed loop, using oxygen sensor feedback to determine fuel mix', '')
+
+[ENGINE_LOAD] => 29.019607843137255 percent
+
+[COOLANT_TEMP] => 67 degC
+
+[SHORT_FUEL_TRIM_1] => 1.5625 percent
+
+[LONG_FUEL_TRIM_1] => 2.34375 percent
+
+[INTAKE_PRESSURE] => 35 kilopascal
+
+[RPM] => 810.0 revolutions_per_minute
+
+[SPEED] => 0.0 kph
+
+[TIMING_ADVANCE] => 1.0 degree
+
+[INTAKE_TEMP] => 30 degC
+
+[MAF] => 3.11 gps
+
+[THROTTLE_POS] => 12.941176470588236 percent
+
+[O2_SENSORS] => ((), (False, False, False, False), (False, False, True, True))
+
+[O2_B1S2] => 0.755 volt
+
+[OBD_COMPLIANCE] => OBD and OBD-II
+
+[RUN_TIME] => 161.0 second
+
+[PIDS_B] => 10000000000111111111000000010101
+
+[DISTANCE_W_MIL] => 0.0 kilometer
+
+[COMMANDED_EGR] => 0.0 percent
+
+[EGR_ERROR] => 99.21875 percent
+
+[EVAPORATIVE_PURGE] => 8.627450980392156 percent
+
+[FUEL_LEVEL] => 100.0 percent
+
+[WARMUPS_SINCE_DTC_CLEAR] => 255.0 count
+
+[DISTANCE_SINCE_DTC_CLEAR] => 24164.0 kilometer
+
+[EVAP_VAPOR_PRESSURE] => 73.25 pascal
+
+[BAROMETRIC_PRESSURE] => 100 kilopascal
+
+[O2_S1_WR_CURRENT] => 0.0 milliampere
+
+[CATALYST_TEMP_B1S1] => 609.4000000000001 degC
+
+[CATALYST_TEMP_B1S2] => 408.90000000000003 degC
+
+[PIDS_C] => 11111110110111001000110000000001
+
+[STATUS_DRIVE_CYCLE] => <obd.OBDResponse.Status object at 0x75ffaa30>
+
+[CONTROL_MODULE_VOLTAGE] => 12.439 volt
+
+[ABSOLUTE_LOAD] => 20.784313725490197 percent
+
+[COMMANDED_EQUIV_RATIO] => 0.998448 ratio
+
+[RELATIVE_THROTTLE_POS] => 3.9215686274509802 percent
+
+[AMBIANT_AIR_TEMP] => 2 degC
+
+[THROTTLE_POS_B] => 12.941176470588236 percent
+
+[ACCELERATOR_POS_D] => 14.901960784313726 percent
+
+[ACCELERATOR_POS_E] => 14.901960784313726 percent
+
+[THROTTLE_ACTUATOR] => 4.313725490196078 percent
+
+[RUN_TIME_MIL] => 0.0 minute
+
+[TIME_SINCE_DTC_CLEARED] => 28067.0 minute
+
+[FUEL_TYPE] => Gasoline
+
+[SHORT_O2_TRIM_B1] => 0.0 percent
+
+[LONG_O2_TRIM_B1] => 1.5625 percent
+
+[GET_DTC] => []
+

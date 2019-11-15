@@ -60,6 +60,7 @@ The ScanYourCar code retrieved the supported commands from three different cars:
 * [Toyota Corolla](examples/output_t.txt) -- Toyota Corolla 2006
 * [Hyundai Accent](examples/output_h.txt) -- Hyundai Accent 2007
 * [Mazda 3](examples/output_m.txt) -- Mazda 3 2006
+* [Kia FORTE](examples/output_k.txt) -- Kia Forte 2019
 
 ## Built With
 
